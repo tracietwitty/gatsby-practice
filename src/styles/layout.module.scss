@@ -1,0 +1,16 @@
+.container {
+  // center content
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 1rem;
+
+  // sticky footer
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+// enable consistent page growth
+.content {
+  flex-grow: 1;
+}
